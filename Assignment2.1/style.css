@@ -1,76 +1,20 @@
-/* Caleb Hess */
-:root {
-    /* establishes a primary color variable to be referenced using the var() function as a css property value */
-    --primary: rgb(111, 6, 33);
+html {
+    color: Blue;
+    background-color: rgba(205, 226, 43, 0.858);
 }
 
 * {
     box-sizing: border-box;
 }
 
-html,
-body {
-    box-sizing: border-box;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-html {
-    margin-right: 10%;
-    color: var(--primary);
-    background-color: darkslategray;
-}
-
-body {
-    background-color: rgba(87, 46, 126, 0.349);
-    padding: 10px;
-    border: 3px solid var(--primary);
-    box-shadow: 2px 2px rgb(54, 26, 34);
-}
-
-/* the game menu */
-nav {
-    background-color: rgba(85, 107, 47, 0.384);
-    /* color sets the text color */
-    color: maroon;
-    border: 4px black groove;
-    /* float: right; */
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    text-align: right;
-    margin-right: auto;
-    margin-left: auto;
-    /* transform: scale(1.6) translate(0px, 10px); */
-}
-
-nav * {
-    width: fit-content;
+header {
+    display: block;
     margin: 0%;
-}
-
-.push {
-    align-self: baseline;
-    transform: scaleX(.9) scaleY(.8);
-}
-
-nav a {
-    color: goldenrod;
-    background-color: var(--primary);
-    text-decoration: none;
-    transition-property: all;
-    transition-duration: .5s;
-}
-
-nav a:visited {
-    color: goldenrod;
-}
-
-nav a:hover {
-    transform: scale(1.1);
-    background-color: darkolivegreen;
+    position: relative;
+    top: 0%;
+    left: 10%;
+    right: 10%;
+    height: 30px;
 }
 
 h1,
@@ -79,154 +23,64 @@ h3,
 h4,
 h5,
 h6 {
+    background-color: rgba(255, 255, 255, 0.306);
+    color: rgba(141, 25, 25, 0.459);
+    text-shadow: 1px -1px blue;
+    font-weight: bolder;
+}
+
+nav {
+    width: 10%;
+    height: auto;
+    border-bottom: 3px dotted black;
+    padding: 5px;
+    margin: 5px;
+    position: inherit;
+    display: block;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+p#rules {
     text-align: center;
     font-weight: bold;
-    border-right: 5px olivedrab solid;
+    text-indent: 5% hanging;
 }
 
-.title {
-    background-color: var(--primary);
-    color: darkslategray;
-    grid-area: name;
+#popupdisplay {
+    position: absolute;
+    margin: auto;
+    width: 50%;
+    height: auto;
 }
 
-.titlebar {
+#players-hand {
     display: flex;
+    width: 25%;
     flex-direction: row;
-    flex-basis: 1;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    text-align: justify;
-    height: 40px;
-}
-
-
-
-.author-wrapper {
-    display: grid;
-    grid-template-columns: .5fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 'name',
-        'email';
-    clear: both;
+    flex-basis: 1;
+    background-color: rgba(245, 245, 220, 0.217);
+    justify-content: space-around;
+    position: absolute;
+    top: 15%;
+    margin: auto;
+    position: relative;
 
 }
 
-.email {
-    grid-area: email;
-    background-color: darkolivegreen;
-    height: max-content;
-}
-
-.author {
-    height: max-content;
-    grid-area: name;
-    background-color: darkolivegreen;
-}
-
-#betLevel {
-    background-color: gray;
-    color: black;
-    margin-left: 0;
-    margin-right: 0;
-    padding: none;
-}
-
-#playerName {
-    width: 25ch;
-    height: 3ch;
-    text-overflow: ellipsis;
-    resize: none;
-}
-
-#playerName:hover {
-    width: min-content;
-    text-overflow: clip;
+.bust {
+    color: red;
+    text-decoration: line-through orange;
 }
 
 .hidden {
-    display: none;
+    visibility: hidden;
 }
 
-.rules,
-#rules_ {
-    background-color: ivory;
-    border-width: 10px;
-    border-color: rgba(245, 245, 245, 0.404);
-    border-radius: 5px;
-    color: black;
-    padding: 5%;
-    margin-right: 10%;
-}
-
-.rules h3 {
-    text-align: justify;
-    font-weight: bold;
-}
-
-.rules h6 {
-    background-color: rgba(99, 47, 29, .680);
-    text-align: justify;
-    font-size: x-large;
-}
-
-.rules h6::before {
-    content: "!";
-    color: goldenrod;
-    text-shadow: gold;
-    text-align: justify;
-    font-size: x-large;
-    position: relative;
-    font-size: 60px;
-}
-
-.rules p {
-    text-align: left;
-    text-indent: 10ch;
-}
-
-.closeBtn {
-    /* resets all default style values to none;*/
-    all: unset;
-    display: inline-block;
-    inline-size: 10px;
-    color: olivedrab;
-    cursor: pointer;
-    border: 2px var(--primary) groove;
-    background-color: maroon;
-    transition: all .5s;
-    width: 50%;
-    text-align: center;
-    border-inline-end-style: dotted;
-    border-inline-end-color: rgba(162, 255, 0, 0.384);
-    margin: auto;
-}
-
-.closeBtn:hover,
-.closeBtn:active {
-    transform: scaleX(.9) scaleZ(2);
-    background-color: rgb(73, 22, 22);
-    color: gray;
-}
-
-#dealerHand {
-    aspect-ratio: calc(50vw/30vh);
-    background-color: olive;
-    content: "";
-}
-
-@media (max-width:720px) {
-    #dealerHand {
-        width: 100%;
-        display: block;
-    }
-}
-
-@media (min-width:721px) {
-    #dealerHand {
-        display: block;
-        width: 75%;
-        max-width: 300px;
-    }
+#actions {
+    display: absolute;
+    background-color: gray;
+    border: 2px solid black;
 }
