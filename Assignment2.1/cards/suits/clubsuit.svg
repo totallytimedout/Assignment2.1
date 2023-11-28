@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg id="svg14260" sodipodi:docname="4suits.svg" viewBox="0 0 4940.0048 1431.3757" version="1.1" inkscape:version="0.47 r22583" width="4940.0049" height="1431.3757" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs id="defs11" />
+  <sodipodi:namedview id="base" bordercolor="#666666" inkscape:pageshadow="2" inkscape:window-y="-8" pagecolor="#ffffff" inkscape:window-height="538" inkscape:window-maximized="1" inkscape:zoom="1" inkscape:window-x="-8" showgrid="false" borderopacity="1.0" inkscape:current-layer="layer1" inkscape:cx="119.80418" inkscape:cy="-83.923679" inkscape:window-width="1024" inkscape:pageopacity="0.0" inkscape:document-units="px" inkscape:showpageshadow="0" inkscape:pagecheckerboard="1" inkscape:deskcolor="#d1d1d1" />
+  <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer" transform="translate(-12457.904,-411.72023)">
+    <path id="path7337" style="fill:#000000;stroke:#008484;stroke-width:0.058849;stroke-linecap:round;stroke-linejoin:round" d="m 351.32,410.63 c -4.5104,0 -8.1679,3.8757 -8.1679,8.6553 0,3.5526 2.0215,6.6049 4.9111,7.9378 1.2068,1.2709 2.2688,3.0657 2.8709,5.5998 -1.2517,-3.0772 -4.1401,-5.2307 -7.5033,-5.2307 -4.5104,0 -8.1679,3.8757 -8.1679,8.6553 0,4.7796 3.6575,8.6534 8.1679,8.6534 3.3728,0 6.2682,-2.1659 7.5141,-5.2572 -2.0691,8.816 -9.6954,8.7273 -9.6954,8.7273 h 20.416 c 0,0 -7.3995,-0.0484 -9.5989,-8.396 1.3144,2.9133 4.1205,4.9259 7.3711,4.9259 4.5105,0 8.1662,-3.8738 8.1662,-8.6534 0,-4.7796 -3.6557,-8.6553 -8.1662,-8.6553 -3.2373,0 -6.0338,1.9959 -7.355,4.8899 0.7033,-2.6318 1.9236,-4.4349 3.2639,-5.668 7e-4,-6.1e-4 0,-10e-4 0,-0.002 2.4705,-1.4878 4.1376,-4.3002 4.1376,-7.527 0,-4.7796 -3.6557,-8.6553 -8.1662,-8.6553 z" inkscape:export-filename="..\cardsclubsuit.svg" inkscape:export-xdpi="96" inkscape:export-ydpi="96" />
+  </g>
+  <metadata id="metadata8">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>four suits</dc:title>
+        <dc:date>2012-07-01T23:02:49</dc:date>
+        <dc:description>the four suits in a deck of cards</dc:description>
+        <dc:source>https://openclipart.org/detail/171000/four-suits-by-last-dino-171000</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Last-Dino</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>bridge</rdf:li>
+            <rdf:li>cards</rdf:li>
+            <rdf:li>casino</rdf:li>
+            <rdf:li>club</rdf:li>
+            <rdf:li>diamond</rdf:li>
+            <rdf:li>gamble</rdf:li>
+            <rdf:li>gambling</rdf:li>
+            <rdf:li>gaming</rdf:li>
+            <rdf:li>heart</rdf:li>
+            <rdf:li>hold em</rdf:li>
+            <rdf:li>holdem</rdf:li>
+            <rdf:li>playing</rdf:li>
+            <rdf:li>poker</rdf:li>
+            <rdf:li>spade</rdf:li>
+            <rdf:li>suit</rdf:li>
+            <rdf:li>vegas</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
